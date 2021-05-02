@@ -6,7 +6,7 @@ import PaginaInicial from '../PaginaInicial'
 import PaginaFrontEnd from '../PaginaFrontEnd'
 import PaginaBackEnd from '../PaginaBackEnd'
 
-const Rotas = () =>{
+const Rotas = () =>(
     <BrowserRouter>
     <Switch>
         <Route exact path="/" component={PaginaInicial}/>
@@ -15,4 +15,6 @@ const Rotas = () =>{
 
     </Switch>
     </BrowserRouter>
-}
+)
+
+export default Rotas
